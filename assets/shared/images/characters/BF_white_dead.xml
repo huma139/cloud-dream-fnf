@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="BF_white_dead.png">
+	<!-- Created with Adobe Animate version 20.0.3.25487 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="BF white dead confirm0000" x="0" y="0" width="420" height="421"/>
+	<SubTexture name="BF white dead confirm0001" x="420" y="0" width="420" height="421"/>
+	<SubTexture name="BF white dead confirm0002" x="840" y="0" width="420" height="421"/>
+	<SubTexture name="BF white dead confirm0003" x="1260" y="0" width="420" height="421"/>
+	<SubTexture name="BF white dead confirm0004" x="1680" y="0" width="420" height="421"/>
+	<SubTexture name="BF white dead confirm0005" x="2100" y="0" width="420" height="421"/>
+	<SubTexture name="BF white dead confirm0006" x="2520" y="0" width="420" height="421"/>
+	<SubTexture name="BF white dead confirm0007" x="2940" y="0" width="420" height="421"/>
+	<SubTexture name="BF white dead confirm0008" x="3360" y="0" width="420" height="421"/>
+	<SubTexture name="BF white dead confirm0009" x="3780" y="0" width="420" height="421"/>
+	<SubTexture name="BF white dead confirm0010" x="4200" y="0" width="420" height="421"/>
+	<SubTexture name="BF white dead confirm0011" x="4620" y="0" width="420" height="421"/>
+	<SubTexture name="BF white dead confirm0012" x="5040" y="0" width="420" height="421"/>
+	<SubTexture name="BF white dead confirm0013" x="5460" y="0" width="420" height="421"/>
+	<SubTexture name="BF white dead confirm0014" x="5880" y="0" width="420" height="421"/>
+	<SubTexture name="BF white dead confirm0015" x="6300" y="0" width="420" height="421"/>
+	<SubTexture name="BF white dead confirm0016" x="6720" y="0" width="420" height="421"/>
+	<SubTexture name="BF white dead confirm0017" x="7140" y="0" width="420" height="421"/>
+	<SubTexture name="BF white dead confirm0018" x="7560" y="0" width="420" height="421"/>
+	<SubTexture name="BF white dead confirm0019" x="0" y="421" width="420" height="421"/>
+	<SubTexture name="BF white dead confirm0020" x="420" y="421" width="420" height="421"/>
+	<SubTexture name="BF white dead confirm0021" x="840" y="421" width="420" height="421"/>
+	<SubTexture name="BF white dead confirm0022" x="1260" y="421" width="420" height="421"/>
+	<SubTexture name="BF white dead confirm0023" x="1680" y="421" width="420" height="421"/>
+	<SubTexture name="BF white dead confirm0024" x="2100" y="421" width="420" height="421"/>
+	<SubTexture name="BF white dead confirm0025" x="2520" y="421" width="420" height="421"/>
+	<SubTexture name="BF white dead confirm0026" x="2940" y="421" width="420" height="421"/>
+	<SubTexture name="BF white dead confirm0027" x="3360" y="421" width="420" height="421"/>
+	<SubTexture name="BF white dead confirm0028" x="3780" y="421" width="420" height="421"/>
+	<SubTexture name="BF white dead confirm0029" x="4200" y="421" width="420" height="421"/>
+	<SubTexture name="BF white dead confirm0030" x="4620" y="421" width="420" height="421"/>
+	<SubTexture name="BF white dead confirm0031" x="5040" y="421" width="420" height="421"/>
+	<SubTexture name="BF white dead confirm0032" x="5460" y="421" width="420" height="421"/>
+	<SubTexture name="BF white dead confirm0033" x="5880" y="421" width="420" height="421"/>
+	<SubTexture name="BF white dead confirm0034" x="6300" y="421" width="420" height="421"/>
+	<SubTexture name="BF white dead confirm0035" x="6720" y="421" width="420" height="421"/>
+	<SubTexture name="BF white dead confirm0036" x="7140" y="421" width="420" height="421"/>
+	<SubTexture name="BF white dead confirm0037" x="7560" y="421" width="420" height="421"/>
+	<SubTexture name="BF white dead confirm0038" x="0" y="842" width="420" height="421"/>
+	<SubTexture name="BF white dead confirm0039" x="420" y="842" width="420" height="421"/>
+	<SubTexture name="BF white dead confirm0040" x="840" y="842" width="420" height="421"/>
+	<SubTexture name="BF white dead confirm0041" x="1260" y="842" width="420" height="421"/>
+	<SubTexture name="BF white dead confirm0042" x="1680" y="842" width="420" height="421"/>
+	<SubTexture name="BF white dead confirm0043" x="2100" y="842" width="420" height="421"/>
+	<SubTexture name="BF white dead confirm0044" x="2520" y="842" width="420" height="421"/>
+	<SubTexture name="BF white dead confirm0045" x="2940" y="842" width="420" height="421"/>
+	<SubTexture name="BF white dead confirm0046" x="3360" y="842" width="420" height="421"/>
+	<SubTexture name="BF white dead confirm0047" x="3780" y="842" width="420" height="421"/>
+	<SubTexture name="BF white dead confirm0048" x="4200" y="842" width="420" height="421"/>
+	<SubTexture name="BF white dead confirm0049" x="4620" y="842" width="420" height="421"/>
+	<SubTexture name="BF white dead loop0000" x="5040" y="842" width="409" height="413"/>
+	<SubTexture name="BF white dead loop0001" x="5449" y="842" width="409" height="413"/>
+	<SubTexture name="BF white dies0000" x="5858" y="842" width="420" height="418"/>
+	<SubTexture name="BF white dies0001" x="6278" y="842" width="420" height="418"/>
+	<SubTexture name="BF white dies0002" x="6698" y="842" width="420" height="418"/>
+	<SubTexture name="BF white dies0003" x="7118" y="842" width="420" height="418"/>
+	<SubTexture name="BF white dies0004" x="7538" y="842" width="420" height="418"/>
+	<SubTexture name="BF white dies0005" x="0" y="1263" width="420" height="418"/>
+	<SubTexture name="BF white dies0006" x="420" y="1263" width="420" height="418"/>
+	<SubTexture name="BF white dies0007" x="840" y="1263" width="420" height="418"/>
+	<SubTexture name="BF white dies0008" x="1260" y="1263" width="420" height="418"/>
+	<SubTexture name="BF white dies0009" x="1680" y="1263" width="420" height="418"/>
+	<SubTexture name="BF white dies0010" x="2100" y="1263" width="420" height="418"/>
+	<SubTexture name="BF white dies0011" x="2520" y="1263" width="420" height="418"/>
+	<SubTexture name="BF white dies0012" x="2940" y="1263" width="420" height="418"/>
+	<SubTexture name="BF white dies0013" x="3360" y="1263" width="420" height="418"/>
+	<SubTexture name="BF white dies0014" x="3780" y="1263" width="420" height="418"/>
+	<SubTexture name="BF white dies0015" x="4200" y="1263" width="420" height="418"/>
+	<SubTexture name="BF white dies0016" x="4620" y="1263" width="420" height="418"/>
+	<SubTexture name="BF white dies0017" x="5040" y="1263" width="420" height="418"/>
+	<SubTexture name="BF white dies0018" x="5460" y="1263" width="420" height="418"/>
+	<SubTexture name="BF white dies0019" x="5880" y="1263" width="420" height="418"/>
+	<SubTexture name="BF white dies0020" x="6300" y="1263" width="420" height="418"/>
+	<SubTexture name="BF white dies0021" x="6720" y="1263" width="420" height="418"/>
+	<SubTexture name="BF white dies0022" x="7140" y="1263" width="420" height="418"/>
+	<SubTexture name="BF white dies0023" x="7560" y="1263" width="420" height="418"/>
+	<SubTexture name="BF white dies0024" x="0" y="1681" width="420" height="418"/>
+	<SubTexture name="BF white dies0025" x="420" y="1681" width="420" height="418"/>
+	<SubTexture name="BF white dies0026" x="840" y="1681" width="420" height="418"/>
+	<SubTexture name="BF white dies0027" x="1260" y="1681" width="420" height="418"/>
+	<SubTexture name="BF white dies0028" x="1680" y="1681" width="420" height="418"/>
+	<SubTexture name="BF white dies0029" x="2100" y="1681" width="420" height="418"/>
+	<SubTexture name="BF white dies0030" x="2520" y="1681" width="420" height="418"/>
+	<SubTexture name="BF white dies0031" x="2940" y="1681" width="420" height="418"/>
+	<SubTexture name="BF white dies0032" x="3360" y="1681" width="420" height="418"/>
+	<SubTexture name="BF white dies0033" x="3780" y="1681" width="420" height="418"/>
+	<SubTexture name="BF white dies0034" x="4200" y="1681" width="420" height="418"/>
+	<SubTexture name="BF white dies0035" x="4620" y="1681" width="420" height="418"/>
+	<SubTexture name="BF white dies0036" x="5040" y="1681" width="420" height="418"/>
+	<SubTexture name="BF white dies0037" x="5460" y="1681" width="420" height="418"/>
+	<SubTexture name="BF white dies0038" x="5880" y="1681" width="420" height="418"/>
+	<SubTexture name="BF white dies0039" x="6300" y="1681" width="420" height="418"/>
+	<SubTexture name="BF white dies0040" x="6720" y="1681" width="420" height="418"/>
+	<SubTexture name="BF white dies0041" x="7140" y="1681" width="420" height="418"/>
+	<SubTexture name="BF white dies0042" x="7560" y="1681" width="420" height="418"/>
+	<SubTexture name="BF white dies0043" x="0" y="2099" width="420" height="418"/>
+	<SubTexture name="BF white dies0044" x="420" y="2099" width="420" height="418"/>
+	<SubTexture name="BF white dies0045" x="840" y="2099" width="420" height="418"/>
+	<SubTexture name="BF white dies0046" x="1260" y="2099" width="420" height="418"/>
+	<SubTexture name="BF white dies0047" x="1680" y="2099" width="420" height="418"/>
+	<SubTexture name="BF white dies0048" x="2100" y="2099" width="420" height="418"/>
+</TextureAtlas>

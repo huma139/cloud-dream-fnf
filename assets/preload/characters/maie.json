@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "maie down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				14
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "maie up",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				-1,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "maie idle",
+			"indices": []
+		},
+		{
+			"offsets": [
+				16,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "maie right"
+		},
+		{
+			"offsets": [
+				40,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "maie left"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/maie_assets",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "maie",
+	"flip_x": true,
+	"healthbar_colors": [
+		36,
+		115,
+		172
+	],
+	"camera_position": [
+		-180,
+		-20
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

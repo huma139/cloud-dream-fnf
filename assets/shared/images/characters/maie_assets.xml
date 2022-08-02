@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="maie_assets.png">
+	<!-- Created with Adobe Animate version 19.2.0.405 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="maie down0000" x="0" y="0" width="577" height="639" frameX="0" frameY="-2" frameWidth="577" frameHeight="641"/>
+	<SubTexture name="maie down0001" x="0" y="0" width="577" height="639" frameX="0" frameY="-2" frameWidth="577" frameHeight="641"/>
+	<SubTexture name="maie down0002" x="577" y="0" width="577" height="641"/>
+	<SubTexture name="maie down0003" x="577" y="0" width="577" height="641"/>
+	<SubTexture name="maie down0004" x="577" y="0" width="577" height="641"/>
+	<SubTexture name="maie down0005" x="1154" y="0" width="577" height="640" frameX="0" frameY="-1" frameWidth="577" frameHeight="641"/>
+	<SubTexture name="maie down0006" x="1154" y="0" width="577" height="640" frameX="0" frameY="-1" frameWidth="577" frameHeight="641"/>
+	<SubTexture name="maie down0007" x="1154" y="0" width="577" height="640" frameX="0" frameY="-1" frameWidth="577" frameHeight="641"/>
+	<SubTexture name="maie down0008" x="1154" y="0" width="577" height="640" frameX="0" frameY="-1" frameWidth="577" frameHeight="641"/>
+	<SubTexture name="maie down0009" x="1154" y="0" width="577" height="640" frameX="0" frameY="-1" frameWidth="577" frameHeight="641"/>
+	<SubTexture name="maie down0010" x="1154" y="0" width="577" height="640" frameX="0" frameY="-1" frameWidth="577" frameHeight="641"/>
+	<SubTexture name="maie down0011" x="1154" y="0" width="577" height="640" frameX="0" frameY="-1" frameWidth="577" frameHeight="641"/>
+	<SubTexture name="maie down0012" x="1154" y="0" width="577" height="640" frameX="0" frameY="-1" frameWidth="577" frameHeight="641"/>
+	<SubTexture name="maie down0013" x="1154" y="0" width="577" height="640" frameX="0" frameY="-1" frameWidth="577" frameHeight="641"/>
+	<SubTexture name="maie down0014" x="1154" y="0" width="577" height="640" frameX="0" frameY="-1" frameWidth="577" frameHeight="641"/>
+	<SubTexture name="maie down0015" x="1154" y="0" width="577" height="640" frameX="0" frameY="-1" frameWidth="577" frameHeight="641"/>
+	<SubTexture name="maie down0016" x="1154" y="0" width="577" height="640" frameX="0" frameY="-1" frameWidth="577" frameHeight="641"/>
+	<SubTexture name="maie down0017" x="1154" y="0" width="577" height="640" frameX="0" frameY="-1" frameWidth="577" frameHeight="641"/>
+	<SubTexture name="maie down0018" x="1154" y="0" width="577" height="640" frameX="0" frameY="-1" frameWidth="577" frameHeight="641"/>
+	<SubTexture name="maie down0019" x="1154" y="0" width="577" height="640" frameX="0" frameY="-1" frameWidth="577" frameHeight="641"/>
+	<SubTexture name="maie down0020" x="1154" y="0" width="577" height="640" frameX="0" frameY="-1" frameWidth="577" frameHeight="641"/>
+	<SubTexture name="maie down0021" x="1154" y="0" width="577" height="640" frameX="0" frameY="-1" frameWidth="577" frameHeight="641"/>
+	<SubTexture name="maie down0022" x="1154" y="0" width="577" height="640" frameX="0" frameY="-1" frameWidth="577" frameHeight="641"/>
+	<SubTexture name="maie down0023" x="1154" y="0" width="577" height="640" frameX="0" frameY="-1" frameWidth="577" frameHeight="641"/>
+	<SubTexture name="maie idle0000" x="0" y="641" width="577" height="643"/>
+	<SubTexture name="maie idle0001" x="0" y="641" width="577" height="643"/>
+	<SubTexture name="maie idle0002" x="0" y="641" width="577" height="643"/>
+	<SubTexture name="maie idle0003" x="577" y="641" width="577" height="639" frameX="0" frameY="-4" frameWidth="577" frameHeight="643"/>
+	<SubTexture name="maie idle0004" x="577" y="641" width="577" height="639" frameX="0" frameY="-4" frameWidth="577" frameHeight="643"/>
+	<SubTexture name="maie idle0005" x="1154" y="641" width="577" height="639" frameX="0" frameY="-4" frameWidth="577" frameHeight="643"/>
+	<SubTexture name="maie idle0006" x="1154" y="641" width="577" height="639" frameX="0" frameY="-4" frameWidth="577" frameHeight="643"/>
+	<SubTexture name="maie idle0007" x="0" y="1284" width="577" height="640" frameX="0" frameY="-3" frameWidth="577" frameHeight="643"/>
+	<SubTexture name="maie idle0008" x="0" y="1284" width="577" height="640" frameX="0" frameY="-3" frameWidth="577" frameHeight="643"/>
+	<SubTexture name="maie idle0009" x="577" y="1284" width="577" height="641" frameX="0" frameY="-2" frameWidth="577" frameHeight="643"/>
+	<SubTexture name="maie idle0010" x="577" y="1284" width="577" height="641" frameX="0" frameY="-2" frameWidth="577" frameHeight="643"/>
+	<SubTexture name="maie idle0011" x="1154" y="1284" width="577" height="640" frameX="0" frameY="-3" frameWidth="577" frameHeight="643"/>
+	<SubTexture name="maie idle0012" x="1154" y="1284" width="577" height="640" frameX="0" frameY="-3" frameWidth="577" frameHeight="643"/>
+	<SubTexture name="maie idle0013" x="1154" y="1284" width="577" height="640" frameX="0" frameY="-3" frameWidth="577" frameHeight="643"/>
+	<SubTexture name="maie left0000" x="0" y="1925" width="646" height="646"/>
+	<SubTexture name="maie left0001" x="0" y="1925" width="646" height="646"/>
+	<SubTexture name="maie left0002" x="646" y="1925" width="645" height="639" frameX="0" frameY="-7" frameWidth="646" frameHeight="646"/>
+	<SubTexture name="maie left0003" x="646" y="1925" width="645" height="639" frameX="0" frameY="-7" frameWidth="646" frameHeight="646"/>
+	<SubTexture name="maie left0004" x="1291" y="1925" width="645" height="641" frameX="0" frameY="-5" frameWidth="646" frameHeight="646"/>
+	<SubTexture name="maie left0005" x="1291" y="1925" width="645" height="641" frameX="0" frameY="-5" frameWidth="646" frameHeight="646"/>
+	<SubTexture name="maie left0006" x="1291" y="1925" width="645" height="641" frameX="0" frameY="-5" frameWidth="646" frameHeight="646"/>
+	<SubTexture name="maie left0007" x="1291" y="1925" width="645" height="641" frameX="0" frameY="-5" frameWidth="646" frameHeight="646"/>
+	<SubTexture name="maie left0008" x="1291" y="1925" width="645" height="641" frameX="0" frameY="-5" frameWidth="646" frameHeight="646"/>
+	<SubTexture name="maie left0009" x="1291" y="1925" width="645" height="641" frameX="0" frameY="-5" frameWidth="646" frameHeight="646"/>
+	<SubTexture name="maie left0010" x="1291" y="1925" width="645" height="641" frameX="0" frameY="-5" frameWidth="646" frameHeight="646"/>
+	<SubTexture name="maie left0011" x="1291" y="1925" width="645" height="641" frameX="0" frameY="-5" frameWidth="646" frameHeight="646"/>
+	<SubTexture name="maie left0012" x="1291" y="1925" width="645" height="641" frameX="0" frameY="-5" frameWidth="646" frameHeight="646"/>
+	<SubTexture name="maie left0013" x="1291" y="1925" width="645" height="641" frameX="0" frameY="-5" frameWidth="646" frameHeight="646"/>
+	<SubTexture name="maie left0014" x="1291" y="1925" width="645" height="641" frameX="0" frameY="-5" frameWidth="646" frameHeight="646"/>
+	<SubTexture name="maie left0015" x="1291" y="1925" width="645" height="641" frameX="0" frameY="-5" frameWidth="646" frameHeight="646"/>
+	<SubTexture name="maie left0016" x="1291" y="1925" width="645" height="641" frameX="0" frameY="-5" frameWidth="646" frameHeight="646"/>
+	<SubTexture name="maie left0017" x="1291" y="1925" width="645" height="641" frameX="0" frameY="-5" frameWidth="646" frameHeight="646"/>
+	<SubTexture name="maie left0018" x="1291" y="1925" width="645" height="641" frameX="0" frameY="-5" frameWidth="646" frameHeight="646"/>
+	<SubTexture name="maie left0019" x="1291" y="1925" width="645" height="641" frameX="0" frameY="-5" frameWidth="646" frameHeight="646"/>
+	<SubTexture name="maie left0020" x="1291" y="1925" width="645" height="641" frameX="0" frameY="-5" frameWidth="646" frameHeight="646"/>
+	<SubTexture name="maie left0021" x="1291" y="1925" width="645" height="641" frameX="0" frameY="-5" frameWidth="646" frameHeight="646"/>
+	<SubTexture name="maie left0022" x="1291" y="1925" width="645" height="641" frameX="0" frameY="-5" frameWidth="646" frameHeight="646"/>
+	<SubTexture name="maie left0023" x="1291" y="1925" width="645" height="641" frameX="0" frameY="-5" frameWidth="646" frameHeight="646"/>
+	<SubTexture name="maie right0000" x="0" y="2571" width="577" height="663" frameX="0" frameY="0" frameWidth="577" frameHeight="665"/>
+	<SubTexture name="maie right0001" x="0" y="2571" width="577" height="663" frameX="0" frameY="0" frameWidth="577" frameHeight="665"/>
+	<SubTexture name="maie right0002" x="577" y="2571" width="577" height="659" frameX="0" frameY="-6" frameWidth="577" frameHeight="665"/>
+	<SubTexture name="maie right0003" x="577" y="2571" width="577" height="659" frameX="0" frameY="-6" frameWidth="577" frameHeight="665"/>
+	<SubTexture name="maie right0004" x="577" y="2571" width="577" height="659" frameX="0" frameY="-6" frameWidth="577" frameHeight="665"/>
+	<SubTexture name="maie right0005" x="1154" y="2571" width="577" height="659" frameX="0" frameY="-6" frameWidth="577" frameHeight="665"/>
+	<SubTexture name="maie right0006" x="1154" y="2571" width="577" height="659" frameX="0" frameY="-6" frameWidth="577" frameHeight="665"/>
+	<SubTexture name="maie right0007" x="1154" y="2571" width="577" height="659" frameX="0" frameY="-6" frameWidth="577" frameHeight="665"/>
+	<SubTexture name="maie right0008" x="1154" y="2571" width="577" height="659" frameX="0" frameY="-6" frameWidth="577" frameHeight="665"/>
+	<SubTexture name="maie right0009" x="1154" y="2571" width="577" height="659" frameX="0" frameY="-6" frameWidth="577" frameHeight="665"/>
+	<SubTexture name="maie right0010" x="1154" y="2571" width="577" height="659" frameX="0" frameY="-6" frameWidth="577" frameHeight="665"/>
+	<SubTexture name="maie right0011" x="1154" y="2571" width="577" height="659" frameX="0" frameY="-6" frameWidth="577" frameHeight="665"/>
+	<SubTexture name="maie right0012" x="1154" y="2571" width="577" height="659" frameX="0" frameY="-6" frameWidth="577" frameHeight="665"/>
+	<SubTexture name="maie right0013" x="1154" y="2571" width="577" height="659" frameX="0" frameY="-6" frameWidth="577" frameHeight="665"/>
+	<SubTexture name="maie right0014" x="1154" y="2571" width="577" height="659" frameX="0" frameY="-6" frameWidth="577" frameHeight="665"/>
+	<SubTexture name="maie right0015" x="1154" y="2571" width="577" height="659" frameX="0" frameY="-6" frameWidth="577" frameHeight="665"/>
+	<SubTexture name="maie right0016" x="1154" y="2571" width="577" height="659" frameX="0" frameY="-6" frameWidth="577" frameHeight="665"/>
+	<SubTexture name="maie right0017" x="1154" y="2571" width="577" height="659" frameX="0" frameY="-6" frameWidth="577" frameHeight="665"/>
+	<SubTexture name="maie right0018" x="1154" y="2571" width="577" height="659" frameX="0" frameY="-6" frameWidth="577" frameHeight="665"/>
+	<SubTexture name="maie right0019" x="1154" y="2571" width="577" height="659" frameX="0" frameY="-6" frameWidth="577" frameHeight="665"/>
+	<SubTexture name="maie right0020" x="1154" y="2571" width="577" height="659" frameX="0" frameY="-6" frameWidth="577" frameHeight="665"/>
+	<SubTexture name="maie right0021" x="1154" y="2571" width="577" height="659" frameX="0" frameY="-6" frameWidth="577" frameHeight="665"/>
+	<SubTexture name="maie right0022" x="1154" y="2571" width="577" height="659" frameX="0" frameY="-6" frameWidth="577" frameHeight="665"/>
+	<SubTexture name="maie right0023" x="1154" y="2571" width="577" height="659" frameX="0" frameY="-6" frameWidth="577" frameHeight="665"/>
+	<SubTexture name="maie up0000" x="0" y="3234" width="577" height="658"/>
+	<SubTexture name="maie up0001" x="0" y="3234" width="577" height="658"/>
+	<SubTexture name="maie up0002" x="577" y="3234" width="577" height="640" frameX="0" frameY="-11" frameWidth="577" frameHeight="658"/>
+	<SubTexture name="maie up0003" x="577" y="3234" width="577" height="640" frameX="0" frameY="-11" frameWidth="577" frameHeight="658"/>
+	<SubTexture name="maie up0004" x="577" y="3234" width="577" height="640" frameX="0" frameY="-11" frameWidth="577" frameHeight="658"/>
+	<SubTexture name="maie up0005" x="1154" y="3234" width="577" height="641" frameX="0" frameY="-10" frameWidth="577" frameHeight="658"/>
+	<SubTexture name="maie up0006" x="1154" y="3234" width="577" height="641" frameX="0" frameY="-10" frameWidth="577" frameHeight="658"/>
+	<SubTexture name="maie up0007" x="1154" y="3234" width="577" height="641" frameX="0" frameY="-10" frameWidth="577" frameHeight="658"/>
+	<SubTexture name="maie up0008" x="1154" y="3234" width="577" height="641" frameX="0" frameY="-10" frameWidth="577" frameHeight="658"/>
+	<SubTexture name="maie up0009" x="1154" y="3234" width="577" height="641" frameX="0" frameY="-10" frameWidth="577" frameHeight="658"/>
+	<SubTexture name="maie up0010" x="1154" y="3234" width="577" height="641" frameX="0" frameY="-10" frameWidth="577" frameHeight="658"/>
+	<SubTexture name="maie up0011" x="1154" y="3234" width="577" height="641" frameX="0" frameY="-10" frameWidth="577" frameHeight="658"/>
+	<SubTexture name="maie up0012" x="1154" y="3234" width="577" height="641" frameX="0" frameY="-10" frameWidth="577" frameHeight="658"/>
+	<SubTexture name="maie up0013" x="1154" y="3234" width="577" height="641" frameX="0" frameY="-10" frameWidth="577" frameHeight="658"/>
+	<SubTexture name="maie up0014" x="1154" y="3234" width="577" height="641" frameX="0" frameY="-10" frameWidth="577" frameHeight="658"/>
+	<SubTexture name="maie up0015" x="1154" y="3234" width="577" height="641" frameX="0" frameY="-10" frameWidth="577" frameHeight="658"/>
+	<SubTexture name="maie up0016" x="1154" y="3234" width="577" height="641" frameX="0" frameY="-10" frameWidth="577" frameHeight="658"/>
+	<SubTexture name="maie up0017" x="1154" y="3234" width="577" height="641" frameX="0" frameY="-10" frameWidth="577" frameHeight="658"/>
+	<SubTexture name="maie up0018" x="1154" y="3234" width="577" height="641" frameX="0" frameY="-10" frameWidth="577" frameHeight="658"/>
+	<SubTexture name="maie up0019" x="1154" y="3234" width="577" height="641" frameX="0" frameY="-10" frameWidth="577" frameHeight="658"/>
+	<SubTexture name="maie up0020" x="1154" y="3234" width="577" height="641" frameX="0" frameY="-10" frameWidth="577" frameHeight="658"/>
+	<SubTexture name="maie up0021" x="1154" y="3234" width="577" height="641" frameX="0" frameY="-10" frameWidth="577" frameHeight="658"/>
+	<SubTexture name="maie up0022" x="1154" y="3234" width="577" height="641" frameX="0" frameY="-10" frameWidth="577" frameHeight="658"/>
+	<SubTexture name="maie up0023" x="1154" y="3234" width="577" height="641" frameX="0" frameY="-10" frameWidth="577" frameHeight="658"/>
+</TextureAtlas>

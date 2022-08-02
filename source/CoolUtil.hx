@@ -1,5 +1,6 @@
 package;
 
+import flixel.input.keyboard.FlxKey;
 import flixel.FlxG;
 import openfl.utils.Assets;
 import lime.utils.Assets as LimeAssets;
@@ -138,4 +139,20 @@ class CoolUtil
 		FlxG.openURL(site);
 		#end
 	}
+
+	// https://github.com/jasononeil/hxrandom/blob/master/src/Random.hx#L58
+	public static function shuffleArray<T>(arr:Array<T>):Array<T>
+	{
+		if (arr!=null) {
+			for (i in 0...arr.length) {
+				var j = FlxG.random.int(0, arr.length - 1);
+				var a = arr[i];
+				var b = arr[j];
+				arr[i] = b;
+				arr[j] = a;
+			}
+		}
+		return arr;
+	}
+	
 }

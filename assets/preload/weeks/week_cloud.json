@@ -1,0 +1,32 @@
+{
+	"songs": [
+		[
+			"Me and Who",
+			"maie",
+			[
+				146,
+				113,
+				253
+			]
+		]
+	],
+	"hiddenUntilUnlocked": false,
+	"hideFreeplay": false,
+	"weekBackground": "",
+	"difficulties": "",
+	"weekCharacters": [
+		"maie",
+		"bf",
+		""
+	],
+	"storyName": "Cloud Dream",
+	"weekName": "Cloud Dream",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"hideStoryMode": false,
+	"weekBefore": "",
+	"startUnlocked": true
+}

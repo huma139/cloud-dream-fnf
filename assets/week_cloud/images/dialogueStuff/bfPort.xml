@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="bfPort.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="BF0000" x="0" y="0" width="427" height="313"/>
+	<SubTexture name="BF0001" x="427" y="0" width="427" height="313"/>
+	<SubTexture name="BF0002" x="854" y="0" width="427" height="313"/>
+	<SubTexture name="BF0003" x="1281" y="0" width="427" height="313"/>
+	<SubTexture name="BF0004" x="0" y="313" width="427" height="313"/>
+	<SubTexture name="BF0005" x="427" y="313" width="427" height="313"/>
+	<SubTexture name="BF0006" x="854" y="313" width="427" height="313"/>
+	<SubTexture name="BF0007" x="1281" y="313" width="427" height="313"/>
+	<SubTexture name="BF0008" x="0" y="626" width="427" height="313"/>
+	<SubTexture name="BF0009" x="427" y="626" width="427" height="313"/>
+	<SubTexture name="BF0010" x="854" y="626" width="427" height="313"/>
+	<SubTexture name="BF0011" x="1281" y="626" width="427" height="313"/>
+	<SubTexture name="BF0012" x="0" y="939" width="427" height="313"/>
+	<SubTexture name="BF0013" x="427" y="939" width="427" height="313"/>
+	<SubTexture name="BF0014" x="854" y="939" width="427" height="313"/>
+	<SubTexture name="BF0015" x="1281" y="939" width="427" height="313"/>
+	<SubTexture name="BF0016" x="0" y="1252" width="427" height="313"/>
+	<SubTexture name="BF0017" x="427" y="1252" width="427" height="313"/>
+	<SubTexture name="BF0018" x="854" y="1252" width="427" height="313"/>
+</TextureAtlas>

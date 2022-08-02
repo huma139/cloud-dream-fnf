@@ -300,6 +300,8 @@ class PlayState extends MusicBeatState
 
 	var precacheList:Map<String, String> = new Map<String, String>();
 
+	var cloud:FlxSprite;
+	var doof:DialogueBox;
 	override public function create()
 	{
 		Paths.clearStoredMemory();
@@ -473,6 +475,8 @@ class PlayState extends MusicBeatState
 		boyfriendGroup = new FlxSpriteGroup(BF_X, BF_Y);
 		dadGroup = new FlxSpriteGroup(DAD_X, DAD_Y);
 		gfGroup = new FlxSpriteGroup(GF_X, GF_Y);
+		cloud = new FlxSprite(BF_X-50, BF_Y+600).loadGraphic(Paths.image('cloud_dark'));
+		cloud.antialiasing = ClientPrefs.globalAntialiasing;
 
 		switch (curStage)
 		{
@@ -798,6 +802,13 @@ class PlayState extends MusicBeatState
 				if(!ClientPrefs.lowQuality) foregroundSprites.add(new BGSprite('tank4', 1300, 900, 1.5, 1.5, ['fg']));
 				foregroundSprites.add(new BGSprite('tank5', 1620, 700, 1.5, 1.5, ['fg']));
 				if(!ClientPrefs.lowQuality) foregroundSprites.add(new BGSprite('tank3', 1300, 1200, 3.5, 2.5, ['fg']));
+
+			case 'dawn': 
+				var bg = new BGSprite('dawnBG', -200, -150, 0.3,0.3);
+				// defaultCamZoom = 0.9;
+				add(bg);
+				add(cloud);
+				
 		}
 
 		switch(Paths.formatToSongPath(SONG.song))
@@ -980,13 +991,13 @@ class PlayState extends MusicBeatState
 		if (OpenFlAssets.exists(file)) {
 			dialogue = CoolUtil.coolTextFile(file);
 		}
-		var doof:DialogueBox = new DialogueBox(false, dialogue);
+		doof = new DialogueBox(false, dialogue);
 		// doof.x += 70;
 		// doof.y = FlxG.height * 0.5;
 		doof.scrollFactor.set();
 		doof.finishThing = startCountdown;
-		doof.nextDialogueThing = startNextDialogue;
-		doof.skipDialogueThing = skipDialogue;
+		// doof.nextDialogueThing = startNextDialogue;
+		// doof.skipDialogueThing = skipDialogue;
 
 		Conductor.songPosition = -5000;
 
@@ -1300,6 +1311,12 @@ class PlayState extends MusicBeatState
 				case 'ugh' | 'guns' | 'stress':
 					tankIntro();
 
+				case 'me-and-who':
+					healthBar.visible = healthBarBG.visible = iconP1.visible = iconP2.visible = scoreTxt.visible = false;
+					dadGroup.alpha = boyfriendGroup.alpha = cloud.alpha = 0;
+					snapCamFollowToPos(boyfriend.getMidpoint().x, boyfriend.getMidpoint().y);
+					startVideo('intro');
+
 				default:
 					startCountdown();
 			}
@@ -1511,8 +1528,15 @@ class PlayState extends MusicBeatState
 	{
 		if(endingSong)
 			endSong();
-		else
-			startCountdown();
+		else {
+			if (SONG.song.toLowerCase() == 'me-and-who') {
+				dialogueStuff(doof);
+			} else {
+				startCountdown();
+			}
+			
+		}
+			
 	}
 
 	var dialogueCount:Int = 0;
@@ -1553,6 +1577,30 @@ class PlayState extends MusicBeatState
 			}
 		}
 	}
+
+	function dialogueStuff(?dialogueBox:DialogueBox):Void
+		{
+			if (dialogueBox != null)
+			{
+
+	
+				inCutscene = true;
+	
+				if (SONG.song.toLowerCase() == 'me-and-who')
+				{
+					add(dialogueBox);
+				}
+				else
+				{
+					FlxG.camera.fade(FlxColor.BLACK, 0.5, true, function()
+					{
+						add(dialogueBox);
+					});
+				}
+			}
+			else
+				startCountdown();
+		}
 
 	function schoolIntro(?dialogueBox:DialogueBox):Void
 	{
@@ -1948,6 +1996,11 @@ class PlayState extends MusicBeatState
 			callOnLuas('onStartCountdown', []);
 			return;
 		}
+
+		healthBar.visible = healthBarBG.visible = iconP1.visible = iconP2.visible = scoreTxt.visible = true;
+		FlxTween.tween(dadGroup, {alpha: 1}, Conductor.crochet / 1000);
+		FlxTween.tween(boyfriendGroup, {alpha: 1}, Conductor.crochet / 1000);
+		FlxTween.tween(cloud, {alpha: 1}, Conductor.crochet / 1000);
 
 		inCutscene = false;
 		var ret:Dynamic = callOnLuas('onStartCountdown', [], false);
@@ -2917,15 +2970,19 @@ class PlayState extends MusicBeatState
 		if (health > 2)
 			health = 2;
 
-		if (healthBar.percent < 20)
+		if (healthBar.percent < 20) {
 			iconP1.animation.curAnim.curFrame = 1;
-		else
+			iconP2.animation.curAnim.curFrame = 2;
+		}
+		else if (healthBar.percent > 80) {
 			iconP1.animation.curAnim.curFrame = 0;
-
-		if (healthBar.percent > 80)
 			iconP2.animation.curAnim.curFrame = 1;
-		else
+		}
+		else {
+			iconP1.animation.curAnim.curFrame = 0;
 			iconP2.animation.curAnim.curFrame = 0;
+		}
+			
 
 		if (FlxG.keys.anyJustPressed(debugKeysCharacter) && !endingSong && !inCutscene) {
 			persistentUpdate = false;
@@ -3814,13 +3871,13 @@ class PlayState extends MusicBeatState
 				if (storyPlaylist.length <= 0)
 				{
 					WeekData.loadTheFirstEnabledMod();
-					FlxG.sound.playMusic(Paths.music('freakyMenu'));
+					// FlxG.sound.playMusic(Paths.music('freakyMenu'));
 
 					cancelMusicFadeTween();
 					if(FlxTransitionableState.skipNextTransIn) {
 						CustomFadeTransition.nextCamera = null;
 					}
-					MusicBeatState.switchState(new StoryMenuState());
+					MusicBeatState.switchState(new TemporaryEnding());
 
 					// if ()
 					if(!ClientPrefs.getGameplaySetting('practice', false) && !ClientPrefs.getGameplaySetting('botplay', false)) {

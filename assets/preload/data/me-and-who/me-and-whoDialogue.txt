@@ -1,0 +1,20 @@
+:maie:m0:Hi there!
+:bf:b1:beep?
+:maie:m9:It's been a long time, isn't it?
+:bf:b2:bop?
+:maie:m3:Oh wait, sorry. I forgot to remind you.
+:maie:m4:I'm Maie, your old classmate.
+:bf:b5:beee..uhhh....
+:bf:b6:Beeeeep bop!
+:maie:m4:Yeeaaah! It's me!
+:bf:b8:beep bap bo beeep!
+:maie:m5:It's pretty lonely up here
+:maie:m5:Even though there's a smoking man here, he does talk with me sometimes...
+:maie:m3:but still...
+:bf:b7:Beep bab skeep di bap???
+:maie:m13:Hey, no need to worry about my look!
+:maie:m11:It's been like forever since we last met!
+:bf:b0:beeeeep.....
+:maie:m4:Hey, let's sing together!
+:maie:m7:I haven't heard you sing for a while now.
+:bf:b8:baep!
